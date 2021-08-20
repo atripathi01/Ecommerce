@@ -1,0 +1,452 @@
+/* navbar style  */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Playfair Display', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+/* font-family: 'Lora', serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+
+/* font-family: 'Unica One', cursive; */
+
+
+
+.navbar{
+    background-color:#000000 ;
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ffffff;
+  
+    
+}
+.Nav-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  color:#ffffff;
+
+
+
+}
+.Nav-container:link{
+    color: #ffffff;
+}
+
+
+.menu-bar{
+ margin-left: 2rem ;
+ font-size: 2rem;
+ background: none;
+ 
+
+}
+.nav-menu{
+    background-color: #000000;
+    border-right: 2px solid #ffffff;
+    width: 250px;
+    height: 100%;
+    display: flex;
+    position: fixed;
+    top: 0;
+    /* left: -100%; */
+    /* transition: 1s; */
+    color: #ffffff;
+    z-index: 0;
+
+}
+.navbar ul{
+    list-style: none;
+    color: #ffffff;
+}
+.menu{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.nav-link{
+    font-size: 18px;
+    margin: 0 0.5rem;
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+.logo{
+    /* font-family: 'Abril Fatface', cursive;*/
+    letter-spacing: 2px; 
+    margin: auto 2rem;
+    align-items: center;
+    width: 80%;
+    font-size: 26px;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+    height: 2rem;
+    width: auto;
+    align-items: center;
+    position: relative;
+    list-style-type: none;
+
+    
+
+}
+.ecart{
+    color: #fff;
+    text-decoration: none;
+    
+}
+.ecart:hover{
+    color:green;
+    text-decoration:none;
+}
+
+.nav-menu.active{
+    left: 0;
+    transition: 0.5s;
+    background-color: #000000;
+    color: #ffffff;
+    z-index: 10;
+}
+.nav-text{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 0 8px 16px;
+    list-style: none;
+    height: 60px;
+    color: #ffffff;
+    
+}
+.nav-text a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+    /* font-family: 'Antonio', sans-serif;
+    font-weight: 400; */
+    /* font-family: 'Oswald', sans-serif; */
+    /* font-family: 'Playfair Display', serif; */
+    letter-spacing: 2px;
+}
+
+.nav-text1{
+    border-bottom:2px solid #ffffff;
+}
+.nav-text a:hover{
+    background-color: #1a83ff;
+}
+.nav-menu-items{
+    width: 100%;
+    list-style-type: none;
+    color: #ffffff;
+    z-index: 1;
+  
+}
+.navbar-toogle{
+    background-color: #000000;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+   
+
+}
+
+.back-btn{
+    font-size: 18px;
+    /* font-weight: 700; */
+    border-radius: 5px;
+    background-color: #000000;
+    border: 2px solid #000000;
+    color: #ffffff;
+    padding: 0px 5px 0px 5px;
+}
+.back-btn a{
+    text-decoration: none;
+   
+
+}
+span {
+    margin-left:16px ;
+}
+.menu-bars{
+    font-size: 26px;
+}
+
+/* Login Page */
+
+
+.section-login{
+    display: flex;
+    justify-content: center;
+    background: transparent;
+}
+.comp-login{
+    display: flex;
+     width: 400px ;
+     height: fit-content;
+     border: 2px solid rgb(233, 233, 92);
+     margin-top: 2rem;
+     margin-bottom: 15vh;
+ 
+     
+}
+.whole{
+    margin: 15px;
+    width: 100%;
+}
+.whole p{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+input{
+    width: 100%;
+    font-size: 14px;
+    
+}
+label{
+    font-size: 18px;
+   
+}
+input[type=text], input[type=email], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit].resis{
+      background-color: #ffffff;
+      border: 2px solid #000000;
+      color: #000000;
+      font-weight: 500;
+
+  }
+  input[type=submit].resis:hover{
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    color: #000000;
+    font-weight: 500;
+  }
+
+  
+  input[type=submit]:hover {
+    background-color: #000000;
+  }
+  #new-user{
+      font-size: 26px;
+  }
+  
+
+/* Resister page */
+
+.section-resi{
+    display: flex;
+    justify-content: center;
+}
+.comp-resister{
+    display: flex;
+     width: 600px ;
+     height: fit-content;
+     border: 2px solid rgb(233, 233, 92);
+     margin-top: 2rem;
+ 
+     
+}
+@media  (max-width:800px) {
+    .comp-resister{
+        width: 370px;
+    }
+    ul.Nav-container{
+        padding-left: 0;
+    }
+    
+}
+
+/* footer */
+.foo{
+    font-size: 18px;
+    width: 100%;
+    background-color: #000000;
+    height: 35vh;
+    margin-bottom: 0;
+    color: #ffffff;
+}
+.contact-link a{
+    /* font-family: 'Antonio', sans-serif; */
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.contact-title{
+    font-family: 'Unica One', cursive;
+    font-weight: 100;
+    /* letter-spacing: 2px; */
+    font-size: 24px;
+}
+.contact-link{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 120px;
+    justify-content: space-between;
+    font-size: 26px;
+}
+
+/* //product page  */
+
+.item_page{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 4rem 5vw;
+    padding: 0;
+    list-style-type: none;
+    z-index: 0;
+    top: 0;
+    border: none;
+    
+}
+.card{
+    position: relative;
+  display: block;
+  height: 100%;  
+  border-radius: 40px;
+  overflow: hidden;
+  text-decoration: none;
+  background-color: #fff;
+  
+}
+.card_image{
+    width: 100%;
+  height: auto;
+}
+.card_overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;      
+    border-radius: 40px 5px 0 0;    
+    background-color: #000;      
+    transform: translateY(100%);
+    transition: .2s ease-in-out;
+    
+  }
+  
+  .card:hover .card_overlay {
+    transform: translateY(0);
+  }
+  
+  .img-box{
+      height:400px;
+      align-items: center;
+      display:flex;
+      justify-content:center;
+      z-index: 0;
+  }
+  .product_naam{
+      
+      
+      font-size: 30px;
+      font-family: 'Unica One', cursive;
+      list-style-type: none;
+      text-decoration: none;
+      color:#fff;
+      text-transform: uppercase;
+  }
+  .for-margin{
+      margin-top: 41px;
+      margin-bottom: 41px;
+      margin-left: 5px;
+      margin-right: 5px;
+  }
+  .cata{
+    font-family: 'Unica One', cursive;
+    font-size: 26px;
+    letter-spacing: 2px;
+    width: 100%;
+    border-bottom: 2px solid #000;
+    margin: 10px;
+    font-weight: 700;
+    z-index: 0;
+
+  }
+
+  /* //home page */
+
+.shoess{
+    width: 100%;
+    height: 75vh;
+    background: #5433FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    /* font-family: 'Tourney', cursive;
+    font-size: 45px; */
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    flex-direction: column;
+    text-align: center;
+   
+    
+   
+}
+.shoes-content{
+    
+    font-size: 60px;
+    font-family: 'Festive', cursive;   
+    @media  screen and (max-width:680px) {
+        font-size:30px;
+        
+    } 
+}
+.shoess button{
+   font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px  ;
+   
+}
+.shoess button:hover{
+    transform: scale(1.05);
+    transition: .2s ;
+background-color: green;
+}
