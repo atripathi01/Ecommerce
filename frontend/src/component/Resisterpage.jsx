@@ -12,12 +12,12 @@ const Resister = () =>{
             <div className="comp-resister">
             <div className="whole">
             <p className="res">Resister</p>
+            <form>
              <div className="names">
-             <label for="FName">First Name</label><br></br>
-             <input type="text" id="FName" maxLength="15" required></input>
+             <label for="FName">Name</label><br></br>
+             <input type="text" id="FName" maxLength="30" required></input>
              
-             <label for="LName">Last Name</label><br></br>
-             <input type="text" id="LName" maxLength="15" required></input>
+            
              </div>
              <label for="e-mail">Email</label>
              <input type="email" id="e-mail" required></input>
@@ -27,6 +27,7 @@ const Resister = () =>{
             <label for="password">Conform Password</label>
              <input type="password" id="password" minLength="6" maxLength="15" required></input>
               <input type="submit" value="Continue Resister"></input>
+              </form>
               <p id="new-user" >Already Resister.Click on Login</p>
              <Link to="/login">  <input className="resis" type="submit" value="Login"></input></Link>
             </div>

@@ -44,7 +44,7 @@ function App() {
          <Resister />
      
         </Route>
-        <Route  path="/product/:id" exact={true} >
+        <Route  path="/product/:id" exact>
          <Products />
      
         </Route>

@@ -8,6 +8,9 @@ const Product = () =>{
     
         return(
             <>
+            <section className="onlineShopping"><div className="happiness">Happiness is,<br></br>..Online Shopping</div></section>
+            
+            
             <div className="cata">Shoes</div>
             <section className="item_page">
             

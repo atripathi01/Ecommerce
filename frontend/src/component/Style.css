@@ -219,12 +219,14 @@ input{
     
 }
 label{
-    font-size: 18px;
+    font-size: 16px;
+    /* font-weight: bold; */
+    display: block;
    
 }
 input[type=text], input[type=email], input[type=password] {
     width: 100%;
-    padding: 12px 20px;
+    padding: 5px 20px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
@@ -323,7 +325,19 @@ input[type=text], input[type=email], input[type=password] {
 }
 
 /* //product page  */
-
+.onlineShopping{
+    width: 100%;
+    height: auto;
+    background-image: url(/image/product.png);
+}
+.happiness {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 348px;
+    font-size: x-large;
+}
 .item_page{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -402,6 +416,7 @@ input[type=text], input[type=email], input[type=password] {
 
   }
 
+
   /* //home page */
 
 .shoess{
@@ -449,4 +464,27 @@ background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+
     transform: scale(1.05);
     transition: .2s ;
 background-color: green;
+}
+
+/* //productDetailPage */
+
+.backButton{
+    font-size: 16;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    padding: 0.35rem 1rem;
+}
+.proddetail{
+ display: flex;
+ justify-content: space-around;
+}
+.detailImage{
+    width: 400px;
+    height: auto;
+}
+.productName{
+    
+    font-family: 'Unica One', cursive; 
+
 }
