@@ -4,10 +4,10 @@ import React from 'react';
 import Foot from './foter'
 import './style.css';
 
-const Needhelp = () =>{ 
-    
-        return(
-            <>
+const Needhelp = () => {
+
+    return (
+        <>
             {/* <article className="helping">
             <header className="heading-1">
                 How can I help you?
@@ -25,9 +25,9 @@ const Needhelp = () =>{
             </main>
             </article> */}
             <Foot />
-            </>
-        );
-    
+        </>
+    );
+
 }
 
 export default Needhelp
