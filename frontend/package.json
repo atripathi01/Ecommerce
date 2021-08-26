@@ -9,7 +9,7 @@
   "dependencies": {
     "bootstrap": "^4.6.0",
     "framer": "^1.2.29",
-    "framer-motion": "^4.1.11",
+    "framer-motion": "^4.1.17",
     "react": "^16.14.0",
     "react-bootstrap": "^1.6.0",
     "react-dom": "^17.0.0",

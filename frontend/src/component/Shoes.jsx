@@ -3,6 +3,7 @@ import data from './Shoesdata';
 import React, { useState } from 'react';
 import './style.css';
 import { Link } from 'react-router-dom'
+import { motion } from 'framer-motion';
 
 const Product = () => {
     const item = data.products;
@@ -22,15 +23,15 @@ const Product = () => {
                 <div className="happiness">Happiness is,<br></br>..Online Shopping</div>
             </section>
             <section className="centerNav">
-            <nav className="categoryNavbar">
-                <ul className="categoryNavWrapper">
-                    <li className="categoryItem">  <button className="category-btn" onClick={() => setMenuData(item)}>All</button></li>
-                    <li className="categoryItem">  <button className="category-btn" onClick={() => filterItem("shirt")}>Shirt</button></li>
-                    <li className="categoryItem">  <button className="category-btn" onClick={() => filterItem("pant")}>Pant</button></li>
-                    <li className="categoryItem">  <button className="category-btn" onClick={() => filterItem("Shoe")}>Shoes</button></li>
-                    <li className="categoryItem"> <button className="category-btn" onClick={() => filterItem("accessories")}>Accessories</button></li>
-                </ul>
-            </nav>
+                <nav className="categoryNavbar">
+                    <ul className="categoryNavWrapper">
+                        <li className="categoryItem">  <button className="category-btn" onClick={() => setMenuData(item)}>All</button></li>
+                        <li className="categoryItem">  <button className="category-btn" onClick={() => filterItem("shirt")}>Shirt</button></li>
+                        <li className="categoryItem">  <button className="category-btn" onClick={() => filterItem("pant")}>Pant</button></li>
+                        <li className="categoryItem">  <button className="category-btn" onClick={() => filterItem("Shoe")}>Shoes</button></li>
+                        <li className="categoryItem"> <button className="category-btn" onClick={() => filterItem("accessories")}>Accessories</button></li>
+                    </ul>
+                </nav>
             </section>
 
             <div className="cata">Shoes</div>
@@ -39,7 +40,11 @@ const Product = () => {
                 {
                     menuData.map(product => (
 
-                        <div key={product._id} className="card" >
+                        <motion.div
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            transition={{ duration: 1.5 }}
+                            key={product._id} className="card" >
                             <Link to={/product/ + product._id}>
                                 <div className="img-box">   <img src={product.image} className="card_image"
                                     alt={product.name}></img></div>
@@ -63,7 +68,7 @@ const Product = () => {
                                     </div>
                                 </div>
                             </Link>
-                        </div>
+                        </motion.div>
 
                     ))
 
