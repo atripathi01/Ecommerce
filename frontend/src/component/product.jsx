@@ -3,7 +3,7 @@ import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
 import data from './Shoesdata';
 
-function GetId(props) {
+function GetId(props , Add) {
     let { id } = useParams();
     const product = data.products.find(x => x._id == id);
     console.log(product.image);
@@ -18,9 +18,13 @@ function GetId(props) {
                     <div className="brandName">{product.brand}</div>
                     <div className="shoesPrice">{product.price}</div></div>
                     <div className="aboutProduct">{product.description}</div>
+                    <div>
+                <button type="button" >Add To Cart</button>
+            </div>
                 </div>
 
             </section>
+           
 
 
 

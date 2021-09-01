@@ -12,7 +12,8 @@ import Resister from './component/Resisterpage'
 import Products from './component/product'
 
 function App() {
-
+  
+    
   return (
     <div className="App">
       <Router>

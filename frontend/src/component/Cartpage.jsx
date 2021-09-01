@@ -1,14 +1,18 @@
 
-
-import React from 'react';
+import data from "./Shoesdata";
+import React, { useState } from 'react';
 import Foot from './foter'
 import './style.css';
 
-const Cart = () => {
+const Cart = (cartItem) => {
+    
 
     return (
         <>
             <h1>Cartpage</h1>
+            <div>
+                {cartItem.length===0 && <div>Cart is Empty</div>}
+            </div>
             <Foot />
         </>
     );

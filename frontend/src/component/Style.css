@@ -330,7 +330,13 @@ input[type=text], input[type=email], input[type=password] {
     height: 350px;
     display: flex;
     justify-content: flex-start;
-
+    transition: 0.8s;
+    
+}
+.onlineShopping:hover{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transform: scale(1.02);
 }
 .shoesImage{
     height: 350px;

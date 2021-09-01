@@ -11,11 +11,11 @@ function catagoryNavbar() {
         <div>
             <nav>
                 <ul>
-                    <li>  <button onClick={() => filterItem("Shoe")}>All</button></li>
-                    <li>  <button onClick={() => filterItem("Shoe")}>Shirt</button></li>
-                    <li>  <button onClick={() => filterItem("Shoe")}>Pant</button></li>
-                    <li>  <button onClick={() => filterItem("Shoe")}>Shoes</button></li>
-                    <li> <button onClick={() => filterItem("Shoe")}>Accessories</button></li>
+                    <li>  <button onClick={() => filterItem("all")}>All</button></li>
+                    <li>  <button onClick={() => filterItem("shirt")}>Shirt</button></li>
+                    <li>  <button onClick={() => filterItem("pant")}>Pant</button></li>
+                    <li>  <button onClick={() => filterItem("shoes")}>Shoes</button></li>
+                    <li> <button onClick={() => filterItem("ass")}>Accessories</button></li>
                 </ul>
             </nav>
         </div>
