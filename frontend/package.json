@@ -15,6 +15,7 @@
     "react-dom": "^17.0.0",
     "react-icons": "^4.2.0",
     "react-router-dom": "^5.2.0",
+    "styled-components": "^5.3.1",
     "vite-ssr": "^0.8.0"
   },
   "devDependencies": {

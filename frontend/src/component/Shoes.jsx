@@ -28,13 +28,13 @@ const Product = () => {
                         <li className="categoryItem">  <button className="category-btn" onClick={() => setMenuData(item)}>All</button></li>
                         <li className="categoryItem">  <button className="category-btn" onClick={() => filterItem("shirt")}>Shirt</button></li>
                         <li className="categoryItem">  <button className="category-btn" onClick={() => filterItem("pant")}>Pant</button></li>
-                        <li className="categoryItem">  <button className="category-btn" onClick={() => filterItem("Shoe")}>Shoes</button></li>
-                        <li className="categoryItem"> <button className="category-btn" onClick={() => filterItem("accessories")}>Accessories</button></li>
+                        <li className="categoryItem">  <button className="category-btn" onClick={() => filterItem("shoes")}>Shoes</button></li>
+                        <li className="categoryItem"> <button className="category-btn" onClick={() => filterItem("ass")}>Accessories</button></li>
                     </ul>
                 </nav>
             </section>
 
-            <div className="cata">Shoes</div>
+            <div className="cata">Collection</div>
             <section className="item_page">
 
                 {

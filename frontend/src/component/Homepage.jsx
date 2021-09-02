@@ -8,13 +8,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="shoess">
-        <div className="shoes-content">
-          Nike Shoes - Shop for casual shoes and sports shoes for men
-        </div>
-        <button>SEE COLLECTIONS</button>
-
-      </div>
+     <h1>Home Page</h1>
 
       <Foot />
     </>
