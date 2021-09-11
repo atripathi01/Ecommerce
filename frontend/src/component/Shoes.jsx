@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import './style.css';
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion';
+import FooterMenu from './foter';
 
 const Product = () => {
     const item = data.products;
@@ -13,7 +14,7 @@ const Product = () => {
         const update = item.filter((product) => {
             return product.category === catagory;
         });
-        setMenuData(update);
+        setMenuData(update); 
     }
 
     return (
@@ -55,13 +56,15 @@ const Product = () => {
                                             <h2>{product.name}</h2>
 
                                         </div>
-                                        <div>
+                                        <div className="par">
+                                        <div className="prices">
 
                                             $ {product.price}
                                         </div>
-                                        <div>
+                                        <div className="rateing">
 
                                             Rating: {product.rating}
+                                        </div>
                                         </div>
 
 
@@ -75,6 +78,7 @@ const Product = () => {
                 }
 
             </section>
+            <FooterMenu />
         </>
     );
 

@@ -12,7 +12,7 @@ import Resister from './component/Resisterpage'
 import Products from './component/product'
 
 function App() {
-  
+ const[cartItem,setCartItem]=useState([]);
     
   return (
     <div className="App">
@@ -26,11 +26,11 @@ function App() {
 
             </Route>
             <Route path="/product" exact>
-              <Product />
+              <Product  />
 
             </Route>
             <Route path="/cart" exact>
-              <Cart />
+              <Cart cartItem={cartItem}/>
 
             </Route>
             <Route path="/account" exact >
