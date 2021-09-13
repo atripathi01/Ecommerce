@@ -11,7 +11,7 @@ const Home = () => {
     <>
       <section >
         <div  className="ecart-im">
-          <img src="./image/ecom.jpg" className="ecrt-im"></img>
+          <img src="../../image/ecom.jpg" className="ecrt-im"></img>
         </div>
         <div className="head-1">
           <h1>Collections And Latest Items</h1>
@@ -23,7 +23,7 @@ const Home = () => {
           <div className="sh-box" >
             <img className="image-shoes" src="./image/fourthone.jpg"></img>
             <div className="sh-content"><p className="cont-write" >
-              Brand is Here, If you wann to purchase or see the 
+              Brand is Here, If you want to purchase or see the 
               leatest product collection. Then click below.
             </p>
             <Link to="/product" ><button className="collection-sh">See collections</button></Link>
@@ -35,7 +35,7 @@ const Home = () => {
           {/* <div className="shoe-con" style={{ fontSize: "90px", fontWeight: "900", color: "#d3d3d3" }}>ShopLife</div> */}
           <div className="sh-box" >
             <div className="sh-content"><p className="cont-write" >
-            Brand is Here, If you wann to purchase or see the 
+            Brand is Here, If you want to purchase or see the 
               leatest product collection. Then click below.
             </p>
             <Link to="/product" ><button className="collection-sh">See collections</button></Link>
@@ -51,7 +51,7 @@ const Home = () => {
           <div className="sh-box" >
             <img className="image-shoes" src="./image/fiveone.png"></img>
             <div className="sh-content"><p className="cont-write" >
-            Brand is Here, If you wann to purchase or see the 
+            Brand is Here, If you want to purchase or see the 
               leatest product collection. Then click below.
             </p>
              <Link to="/product" ><button className="collection-sh">See collections</button></Link>
